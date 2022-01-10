@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Table from './table'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      
+    
+    <Table/>
+
+      
+    )
 }
 
 export default App;
+
+
+
+
+
+
+
+// import React from "react";
+// import data from "./data"
+
+// function App() {
+//   return (
+//     <div>
+//       <label>
+//         Employee details:
+//         <select>
+//           <option value='employee'>Choose Employee</option>
+//           {
+//             data.map((res)=> (<option>{res.id}{res.name}</option>))
+//           }
+//         </select>
+//       </label>
+//     </div>
+    
+//   );
+// }
+
